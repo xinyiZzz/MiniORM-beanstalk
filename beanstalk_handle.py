@@ -2,7 +2,7 @@
 #-*-coding:utf-8-*-
 
 '''
-Name: beanstalk操作模块，提供put和get方法
+Name: beanstalk操作模块，提供put和get方法  https://github.com/xinyi-spark/MiniORM-beanstalk
 Author：XinYi 609610350@qq.com
 Time：2016.4
 '''
@@ -133,7 +133,7 @@ class BeanstalkHandle():
 
 
 if __name__ == '__main__':
-    beanstalk_handle = BeanstalkHandle(host='127.0.0.1')
+    beanstalk_handle = BeanstalkHandle(host='172.31.137.240')
     beanstalk_handle.put('test', {'save_task': ['aaa', 'bbbb']})
     beanstalk_handle.put('test', {'save_task': ['1111', '2222']})
     for job_msg, job_body in beanstalk_handle.get('test', infinite_loop=False, num=2):
