@@ -1,6 +1,6 @@
 ## June 2 2016 9:14 AM
 
-# MiniBeanstalk-BeanstalkORM
+# MiniORM-beanstalk
 
 * * *
 
