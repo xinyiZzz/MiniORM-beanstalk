@@ -5,12 +5,12 @@
 * * *
 
 
-## system function/系统功能
+## function/系统功能
 
 By joining together the SQL statement, lightweight MySQL ORM  
 封装put和get，提供简易接口
 
-## Use examples/使用范例
+## examples/使用范例
 
 ```
 from beanstalk_handle import BeanstalkHandle  
